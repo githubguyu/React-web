@@ -1,12 +1,12 @@
 
 import React from 'react'
 
-export default class App extends React.Component{
+export default class Nomatch extends React.Component{
 
     render(){
         return(
             <div>
-                { this.props.children }
+               404 NO Found
             </div>
         );
     }

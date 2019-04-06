@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=A42om3nzboMcgkUNQmhn2XkG16DeSDKa"></script>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -27,6 +28,14 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- loading -->
+    <div class="ajax-loading" id="ajaxLoading" style="display: none;">
+      <div class="overlay"></div>
+      <div class="loading">
+        <img src="https://media.number-7.cn/ebike-h5/static/images/common/loading.gif" alt="">
+        <span>加载中，请稍后...</span>
+      </div>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
